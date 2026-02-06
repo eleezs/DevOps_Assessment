@@ -135,22 +135,5 @@ NAME                           READY   STATUS    RESTARTS   AGE
 sycamore-api-7d8bc9f7cc-plj7l  1/1     Running   0          30s
 ```
 
----
 
-## Lessons Learned
-
-1. **Memory Management:** Always profile applications to set appropriate resource limits
-2. **Health Checks:** Implement probes for production workloads
-3. **Version Consistency:** Ensure container images match application requirements
-4. **Monitoring:** Use `kubectl top` and `kubectl describe` for resource diagnostics
-5. **Code Quality:** Avoid unbounded data structures and memory leaks
-
----
-
-## Additional Recommendations
-
-1. **Implement monitoring:** Add Prometheus metrics for memory usage
-2. **Set up alerts:** Configure alerts for OOMKilled events
-3. **Use HPA:** Consider Horizontal Pod Autoscaler for traffic scaling
-4. **Resource quotas:** Define namespace-level resource limits
-5. **Load testing:** Test memory usage under realistic load conditions
+![alt text](<Screenshot From 2026-02-06 22-14-58.png>)
